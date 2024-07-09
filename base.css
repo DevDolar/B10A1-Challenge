@@ -13,9 +13,23 @@ button {
   font-family: "Azeret Mono", monospace;
 }
 
+section {
+  margin-bottom: 50px;
+}
+
 .container {
   margin: 0 auto;
   max-width: 1440px;
+}
+
+.sub-title {
+  max-width: 852px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 20px 0;
+  line-height: 30px;
+  margin: 0 auto;
 }
 
 .secondary-btn {
@@ -37,7 +51,7 @@ button {
   border-radius: 5px;
 }
 
-/* Header Style */
+/******************************** Header Style ********************************/
 
 .header-info {
   display: flex;
@@ -51,7 +65,7 @@ button {
   font-weight: 900;
 }
 
-/* Hero Banner Style */
+/******************************** Hero Banner Style ********************************/
 #hero-banner {
   background-image: url(assets/Hero-bg.png);
   background-size: cover;
@@ -77,18 +91,65 @@ button {
   margin: auto;
   margin-top: 32px;
 }
-.user-info p {
-  max-width: 852px;
-  text-align: center;
-  font-size: 16px;
-  font-weight: 400;
-  padding: 20px 0;
-  line-height: 30px;
-}
 
 .user-info {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+/******************************** Why Web Style ********************************/
+.bg-why-web {
+  background-color: #fafafb;
+  border-radius: 15px;
+  padding: 50px 80px;
+}
+.bg-why-web h1 {
+  text-align: center;
+}
+
+.card-one,
+.card-three {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 30%,
+    rgba(0, 212, 255, 0) 100%
+  );
+  padding: 48px;
+  border-radius: 15px;
+  margin: 30px 0;
+}
+
+.card-two {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+  padding: 48px;
+  border-radius: 15px;
+}
+
+.card-info {
+  max-width: 477px;
+}
+
+.card-info h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0d1321;
+}
+
+.card-info p {
+  font-size: 16px;
+  padding: 20px 0;
+  line-height: 25px;
 }
