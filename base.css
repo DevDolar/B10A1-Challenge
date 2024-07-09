@@ -60,9 +60,10 @@ section {
   padding: 20px 0;
 }
 
-.title h1 {
-  font-size: 28px;
+.title {
+  font-size: 32px;
   font-weight: 900;
+  text-align: center;
 }
 
 /******************************** Hero Banner Style ********************************/
@@ -152,4 +153,11 @@ section {
   font-size: 16px;
   padding: 20px 0;
   line-height: 25px;
+}
+
+.play-insert iframe {
+  padding: 40px;
+  margin: 0 50px;
+  border: 1px solid rgba(0, 0, 0, 0.247);
+  border-radius: 20px;
 }
