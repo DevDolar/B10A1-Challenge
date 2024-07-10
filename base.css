@@ -39,6 +39,7 @@ section {
   background-color: #ffffff;
   border: 1px solid #0d1321;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .primary-btn {
@@ -49,6 +50,7 @@ section {
   border: 1px solid #0d1321;
   color: #ffffff;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 /******************************** Header Style ********************************/
@@ -207,3 +209,97 @@ section {
 }
 
 /******************************** Next Target Style ********************************/
+.next-mission {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 30px;
+  border: 1px solid rgba(13, 19, 33, 0.212);
+  border-radius: 25px;
+  margin-bottom: 30px;
+}
+
+.img-target img {
+  width: 120px;
+  height: auto;
+}
+
+/* Support style */
+.support-bg {
+  background-image: url(assets/handshake.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 64px 48px;
+  height: 370px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 25px;
+  background-color: rgba(13, 19, 33, 0.5);
+  background-blend-mode: overlay;
+}
+
+.support-bg h2 {
+  color: #fff;
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.support-bg p {
+  font-size: 16px;
+  color: #fff;
+  width: 606px;
+  line-height: 26px;
+  margin: 0 auto;
+  padding: 10px 0 20px 0;
+}
+
+.submit-btn {
+  cursor: pointer;
+}
+
+.feedback-form input {
+  padding: 15px 30px;
+  width: 360px;
+  border-radius: 5px;
+  border: 0px;
+}
+
+.feedback-form button {
+  padding: 15px 30px;
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 500;
+}
+
+/******************************** Footer Style ********************************/
+footer {
+  background-color: #f7f8f8;
+  padding: 20px 0;
+}
+
+.footer-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .col-left p {
+  font-weight: 500;
+  font-size: 20px;
+}
+.social-icon {
+  display: flex;
+  column-gap: 20px;
+}
+
+.social-icon img {
+  width: 32px;
+  height: 32px;
+}
+
+/******************************** ALL DONE THANKS ********************************/
